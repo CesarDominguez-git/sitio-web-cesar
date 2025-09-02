@@ -1,0 +1,62 @@
+/* --- Botón de perfil --- */
+.perfil-btn {
+  background: transparent;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+/* --- Imagen de perfil --- */
+.perfil-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+/* --- Menú dropdown --- */
+.perfil-menu {
+  min-width: 250px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* --- Información del perfil --- */
+.perfil-info {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+/* --- Items del menú con iconos --- */
+.perfil-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.perfil-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* --- Línea separadora --- */
+.dropdown-divider {
+  margin: 0.5rem 0;
+}
+
+/* --- Contenedor del dropdown flotante --- */
+.perfil-dropdown {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  z-index: 1100;
+}
+
+/* --- Asegura que el body deje espacio si tu navbar es fixed --- */
+body {
+  padding-top: 60px;
+}

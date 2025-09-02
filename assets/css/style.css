@@ -1,0 +1,87 @@
+/* Tabla contenedora */
+.tabla-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-top: 25px;
+}
+
+h2 {
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+h2 i {
+  margin-right: 10px;
+  color: #6e8efb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e1e5eb;
+  color: #333;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Leyenda de colores de deudas */
+.deuda {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.pagado {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+.leyenda {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.leyenda span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.leyenda .deuda {
+  background-color: #e74c3c;
+}
+
+.leyenda .pagado {
+  background-color: #2ecc71;
+}
+
+/* Barra de progreso dentro de tablas */
+.progress {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: #6e8efb;
+}
+
+
